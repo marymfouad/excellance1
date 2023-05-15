@@ -1,0 +1,539 @@
+:root{
+    direction: rtl;
+}
+
+.navbar{
+    position: sticky !important ;
+    z-index: 10;
+    top: 0;
+    background-image: linear-gradient(to left,black,#00111a,#002233,#00334d,#004466,#005580,#006699);
+    font-family: 'Amiri', serif;
+    padding-bottom: 20px;
+    
+    
+} 
+
+.logo{
+    width: 70px;
+    height: 50px;
+    padding: 0;
+    margin: -50px;
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.navbar .navbar-nav .nav-link .active ,
+.navbar .navbar-nav .nav-link:focus ,
+.navbar .navbar-nav .nav-link:hover
+{
+    color: aqua;
+    font-weight: bold;
+}
+.navbar .button
+{
+    height: 38px;
+    background-color: aliceblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+    border-radius: 20px;
+}
+.navbar .navbar-toggler{
+    color:white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+/*الاقسام-----*/
+
+.col
+{
+    width: 100%;
+    height: 110vh;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box
+{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.b1
+{
+    background-image: url(../services/al14.jpeg);
+}
+
+.b2
+{
+    background-image: url(../services/al1.jpeg);
+}
+
+.b3
+{
+    background-image: url(../services/al15.jpeg);
+}
+
+.b4
+{
+    background-image: url(../services/al2.jpeg);
+}
+
+.b5
+{
+    background-image: url(../services/al3.jpeg);
+}
+.b6
+{
+    background-image: url(../services/al4.jpeg);
+}
+.b7
+{
+    background-image: url(../services/al5.jpeg);
+}
+.b8
+{
+    background-image: url(../services/al6.jpeg);
+}
+.b9
+{
+    background-image: url(../services/al7.jpeg);
+}
+.b10
+{
+    background-image: url(../services/al8.jpeg);
+}
+.b11
+{
+    background-image: url(../services/al9.jpeg);
+}
+.b12
+{
+    background-image: url(../services/al10.jpeg);
+}
+.b13
+{
+    background-image: url(../services/al11.jpeg);
+}
+.b14
+{
+    background-image: url(../services/al12.jpeg);
+}
+.b15
+{
+    background-image: url(../services/al13.jpeg);
+}
+.card:hover
+{
+    transform: rotateY(-10px);
+}
+
+
+
+.col1
+{
+    width: 100%;
+    height: 70vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.c1
+{
+    background-image: url(../services/w1.jpeg);
+}
+.c2
+{
+    background-image: url(../services/w2.jpeg);
+}
+.c3
+{
+    background-image: url(../services/w3.jpeg);
+}
+.c4
+{
+    background-image: url(../services/w4.jpeg);
+}
+.c5
+{
+    background-image: url(../services/w5.jpeg);
+}
+.c6
+{
+    background-image: url(../services/w6.jpeg);
+}
+.c7
+{
+    background-image: url(../services/w7.jpeg);
+}
+.c8
+{
+    background-image: url(../services/w8.jpeg);
+}
+
+.col2
+{
+    width: 100%;
+    height: 70vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.d1
+{
+    background-image: url(../services/d1.jpeg);
+}
+.d2
+{
+    background-image: url(../services/d2.jpeg);
+}
+.d3
+{
+    background-image: url(../services/d3.jpeg);
+}
+.d4
+{
+    background-image: url(../services/d4.jpeg);
+}
+.d5
+{
+    background-image: url(../services/d5.jpeg);
+}
+.d6
+{
+    background-image: url(../services/d6.jpeg);
+}
+.d7
+{
+    background-image: url(../services/d7.jpeg);
+}
+.d8
+{
+    background-image: url(../services/d8.jpeg);
+}
+.d9
+{
+    background-image: url(../services/d9.jpeg);
+}
+.d10
+{
+    background-image: url(../services/d10.jpeg);
+}
+
+.col3
+{
+    width: 100%;
+    height: 30vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.dw1
+{
+    background-image: url(../services/dw1.jpeg);
+}
+.dw2
+{
+    background-image: url(../services/dw5.jpeg);
+}
+.dw3
+{
+    background-image: url(../services/dw4.jpeg);
+}
+.dw4
+{
+    background-image: url(../services/dw2.jpeg);
+}
+.dw5
+{
+    background-image: url(../services/dw3.jpeg);
+}
+
+.col4
+{
+    width: 100%;
+    height: 70vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.dl1
+{
+    background-image: url(../services/dl1.jpeg);
+}
+.dl2
+{
+    background-image: url(../services/dl2.jpeg);
+}
+.dl3
+{
+    background-image: url(../services/dl3.jpeg);
+}
+.dl4
+{
+    background-image: url(../services/dl4.jpeg);
+}
+.dl5
+{
+    background-image: url(../services/dl5.jpeg);
+}
+.dl6
+{
+    background-image: url(../services/dl6.jpeg);
+}
+.dl7
+{
+    background-image: url(../services/dl7.jpeg);
+}
+.dl8
+{
+    background-image: url(../services/dl8.jpeg);
+}
+
+.col5
+{
+    width: 100%;
+    height: 30vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.dal1
+{
+    background-image: url(../services/dal1.jpeg);
+}
+.dal2
+{
+    background-image: url(../services/dal2.jpeg);
+}
+.dal3
+{
+    background-image: url(../services/dal3.jpeg);
+}
+.dal4
+{
+    background-image: url(../services/dal4.jpeg);
+}
+.dal5
+{
+    background-image: url(../services/dal5.jpeg);
+}
+
+.col6
+{
+    width: 100%;
+    height: 70vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.sh1
+{
+    background-image: url(../services/sh1.jpeg);
+}
+.sh2
+{
+    background-image: url(../services/sh2.jpeg);
+}
+.sh3
+{
+    background-image: url(../services/sh3.jpeg);
+}
+.sh4
+{
+    background-image: url(../services/sh4.jpeg);
+}
+.sh5
+{
+    background-image: url(../services/sh5.jpeg);
+}
+.sh6
+{
+    background-image: url(../services/sh6.jpeg);
+}
+.sh7
+{
+    background-image: url(../services/sh7.jpeg);
+}
+.sh8
+{
+    background-image: url(../services/sh8.jpeg);
+}
+.sh9
+{
+    background-image: url(../services/sh9.jpeg);
+}
+.sh10
+{
+    background-image: url(../services/sh10.jpeg);
+}
+
+.col7
+{
+    width: 100%;
+    height: 30vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.drg1{
+    background-image: url(../services/dg1.jpeg);
+}
+.drg2
+{
+    background-image: url(../services/dg2.jpeg);
+}
+.drg3
+{
+    background-image: url(../services/dg4.jpeg);
+}
+.drg4
+{
+    background-image: url(../services/dg3.jpeg);
+}
+.drg5
+{
+    background-image: url(../services/dg5.jpeg);
+}
+
+.col8
+{
+    width: 100%;
+    height: 30vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.drgs1{
+    background-image: url(../services/dgs1.jpeg);
+}
+.drgs2
+{
+    background-image: url(../services/dgs2.jpeg);
+}
+.drgs3
+{
+    background-image: url(../services/dgs3.jpeg);
+}
+.drgs4
+{
+    background-image: url(../services/dg4.jpeg);
+}
+.drgs5
+{
+    background-image: url(../services/dgs5.jpeg);
+}
+.col9
+{
+    width: 100%;
+    height: 70vh;
+    margin-top: 200px;
+    background-position: center;
+    background-size: cover;
+
+}
+.drs1{
+    background-image: url(../services/ds1.jpeg);
+}
+.drs2
+{
+    background-image: url(../services/ds2.jpeg);
+}
+.drs3
+{
+    background-image: url(../services/ds3.jpeg);
+}
+/*
+.card p
+{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+
+}
+a:is(:link,:active,:visited).active
+{
+    color: #999;
+    background-color: #000;
+}
+*/
+
+
+
+
+
+#contact{
+
+    background-image: linear-gradient(to left,black,#00111a,#002233,#00334d,#004466,#005580,#006699);
+   color: #fff;
+    
+    
+   }
+    .footer-img{
+        width: 100%;
+   
+   }
+   .contact-form
+   {
+   padding: 0px;
+   }
+   .contact-info .fa 
+   {
+   margin: 10px;
+  
+   font-weight: bold;
+   }
+   .follow
+   {
+       
+       padding: 10px;
+   
+   }
+   .follow a{
+    text-decoration: none;
+   }
+   .social-icons img{
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+
+   }
+   .social-icons a:hover img{
+    transform: translateY(-5px);
+
+
+   }
+   footer{
+    background-image: linear-gradient(to left,black,#00111a,#002233,#00334d,#004466,#005580,#006699);
+    color: #fff;
+    padding-bottom: 2px;
+
+  }
+

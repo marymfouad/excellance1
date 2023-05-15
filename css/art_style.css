@@ -1,0 +1,120 @@
+:root{
+    direction: rtl;
+}
+
+.navbar{
+    position: sticky !important ;
+    z-index: 10;
+    top: 0;
+    background-image: linear-gradient(to left,black,#00111a,#002233,#00334d,#004466,#005580,#006699);
+    font-family: 'Amiri', serif;
+    padding-bottom: 20px;
+    
+    
+} 
+
+.logo{
+    width: 70px;
+    height: 50px;
+    padding: 0;
+    margin: -50px;
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.navbar .navbar-nav .nav-link .active ,
+.navbar .navbar-nav .nav-link:focus ,
+.navbar .navbar-nav .nav-link:hover
+{
+    color: aqua;
+    font-weight: bold;
+}
+.navbar .button
+{
+    height: 38px;
+    background-color: aliceblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+    border-radius: 20px;
+}
+.navbar .navbar-toggler{
+    color:white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.articles{
+    background-color: #fff;
+    margin-top: 50px;
+}
+.articles ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.articles ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Amiri', serif;
+    font-size: 30px;
+    
+
+}
+
+
+
+#contact{
+
+    background-image: linear-gradient(to left,black,#00111a,#002233,#00334d,#004466,#005580,#006699);
+   color: #fff;
+    
+    
+   }
+    .footer-img{
+        width: 100%;
+   
+   }
+   .contact-form
+   {
+   padding: 0px;
+   }
+   .contact-info .fa 
+   {
+   margin: 10px;
+  
+   font-weight: bold;
+   }
+   .follow
+   {
+       
+       padding: 10px;
+   
+   }
+   .follow a{
+    text-decoration: none;
+   }
+   .social-icons img{
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+
+   }
+   .social-icons a:hover img{
+    transform: translateY(-5px);
+
+
+   }
+   footer{
+    background-image: linear-gradient(to left,black,#00111a,#002233,#00334d,#004466,#005580,#006699);
+    color: #fff;
+    padding-bottom: 2px;
+
+  }
+
